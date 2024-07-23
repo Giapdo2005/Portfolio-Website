@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #222; 
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-right {
+  display: flex;
+  gap: 15px; 
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #444;
+  color: #ddd;
+}
+.about-me {
+  text-align: center;
+  margin: 40px auto 0 auto; 
+  max-width: 650px;
+  width: 100%;
+}
+.about-me p {
+  line-height: 1.8;
+  font-weight: 600;
+  color: grey
+}
+.about-me h3 {
+  color: green;
+}
+
+.profile-pic {
+  width: 250px; 
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover; 
+  display: block; 
+  margin: 0 auto;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.7); 
+}
+.name {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.university {
+  font-size: 21px;
+}
+.social-links {
+  margin-top: 30px;
+  text-align: center;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  vertical-align: middle;
+  transition: opacity 0.3s;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+}
+.resume-link, .linkedin-link {
+  color: green;
+  text-decoration: none;
+}
+.resume-link:hover {
+  text-decoration: underline;
+}
+.linkedin-link:hover {
+  text-decoration: underline;
+}
